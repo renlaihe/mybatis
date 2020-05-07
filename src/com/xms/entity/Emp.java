@@ -3,7 +3,7 @@ package com.xms.entity;
 import java.sql.Date;
 
 public class Emp {
-	
+	//显示客户信息
 	private Integer empno;
 	private String ename;
 	private Double salary;
@@ -13,6 +13,7 @@ public class Emp {
 	public Integer getEmpno() {
 		return empno;
 	}
+	//getset方法
 	public void setEmpno(Integer empno) {
 		this.empno = empno;
 	}
